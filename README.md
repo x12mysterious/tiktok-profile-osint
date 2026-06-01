@@ -29,9 +29,9 @@ pip3 install -r requirements.txt
 
 ### Zip method
 ```bash
-wget https://github.com/x12mysterious/tiktok-profile-osint/archive/refs/heads/master.zip
-unzip master.zip
-cd tiktok-profile-osint-master
+wget https://github.com/x12mysterious/tiktok-profile-osint/archive/refs/heads/main.zip
+unzip main.zip
+cd tiktok-profile-osint-main
 pip3 install -r requirements.txt
 ```
 
