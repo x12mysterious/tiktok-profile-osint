@@ -4,9 +4,11 @@ TikTok Social Media Open Source Intelligence Tool — updated to work with TikTo
 
 > Originally based on [TikTok-OSINT](https://github.com/Omicron166/TikTok-OSINT) by Omicron166 (MIT License)
 
-## What's changed from the original
+## What's New
 - Fixed broken scraper — TikTok replaced `SIGI_STATE` with `__UNIVERSAL_DATA_FOR_REHYDRATION__`
 - Updated JSON extraction path from `props.pageProps.userInfo` to `__DEFAULT_SCOPE__.webapp.user-detail.userInfo`
+- Remapped user and stats objects from `UserModule.users/stats` to `webapp.user-detail.userInfo.user/stats`
+- Replaced hardcoded `[ ]` key access with `.get()` chains to prevent `KeyError` crashes
 - Switched URL from `http://` to `https://`
 
 ## Requirements
